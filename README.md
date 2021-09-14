@@ -47,6 +47,6 @@ IPv6 네트워크 환경에서 IP 계층과 데이터 링크 계층 보안 프�
 
 또한 IPsec의 ISAKMP 프로토콜의 구현 상의 오류로서 영향 받는 플랫폼의 원격 공격자가 악의적으로 조작된 IKE 패킷을 전송하여 서비서 거부가 발생하거나, 포맷 스트링, 버퍼 오버 플로우 취약점이 나타날 수 있다. MACse의 경우에도 하드웨어 ACL(Access Control Lists)은 MACsec 처리 후 수신 트래픽에 적용되기 때문에 ACL에 MACsec 캡슐화가 표시되지 않거나 MACsec에 의해 프레임이 차단된 경우 ACL 작업이 수행되지 않는다. 이외에도 Port mirroring, VCStacking, MRU(Maximum Receive Unit) 보안 문제가 있다. 향후 연구로는 IPsec과 MACsec의 보안 문제를 파악하고 해결하여 미래 네트워크 기술을 안전하고 유지할 수 있는 보안 대책을 마련한다.
 
-**헛걸음**
+**번외**  
 ![image](https://user-images.githubusercontent.com/40004210/133226261-74b53963-1a41-4c41-8282-4a1a8bd6fd4b.png)  
 실제 장비에서 MACsec 프로토콜 구현해보고 싶어서 카탈리스크-3850 스위치 2개를 구매했다. 합쳐서 60만원 정도했는데 MACsec 구현은 쉽게 되지만 DoS 공격은 하기 무서워서 하지 못했다. 적은 금액이면 별 공격을 다해봤겠지만 관련된 장비들이 고장날 것 같아 포기. 결국 주변 기업에 일괄 40만원에 판매!
